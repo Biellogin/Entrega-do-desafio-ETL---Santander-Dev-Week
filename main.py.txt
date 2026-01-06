@@ -1,0 +1,9 @@
+import pandas as pd
+
+# Passo 1: EXTRAÇÃO (Extract)
+# O Pandas lê o arquivo CSV e o transforma em um DataFrame (uma tabela do Python)
+df = pd.read_csv('dados_origem.csv')
+
+# Exibe os dados no terminal para confirmar que a extração funcionou
+print("Dados Extraídos com Sucesso:")
+print(df)
